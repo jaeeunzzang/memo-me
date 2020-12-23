@@ -1,6 +1,28 @@
 body {
   text-align: center;
 }
+#wrap {
+}
 #flexDiv {
   display: flex;
+  flex-flow: row wrap;
+}
+.nav {
+  position: relative;
+  border: 1px solid gray;
+  width: 19%;
+
+  background-color: antiquewhite;
+}
+.post {
+  position: relative;
+  border: 1px solid gray;
+  width: 50%;
+}
+.todo {
+  position: relative;
+  border: 1px solid gray;
+  width: 29%;
+
+  background-color: rgb(201, 215, 241);
 }
