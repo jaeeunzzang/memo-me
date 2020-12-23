@@ -1,4 +1,4 @@
 - [x] todolist
 - [ ] post
-- [ ] navbar
+- [ ] navbar : 따로 빼서 .. 클릭하면 post만 바뀌게
 - [ ] home
