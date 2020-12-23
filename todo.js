@@ -55,12 +55,13 @@ function createItem(taskItem) {
   span.innerText = taskItem.title;
   var checkbox = checkboxCreate(taskItem);
   var del = deleteButton();
+  var space = " ";
 
   checkbox.checked
     ? (span.style.textDecoration = "line-through")
     : (span.style.textDecoration = "none");
   li.id = taskItem.id;
-  li.append(checkbox, span, del);
+  li.append(checkbox, span, space, del);
 
   return li;
 }
