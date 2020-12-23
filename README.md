@@ -1,4 +1,4 @@
-- [ ] todolist
+- [x] todolist
 - [ ] post
 - [ ] navbar
 - [ ] home

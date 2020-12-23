@@ -10,7 +10,10 @@ a {
   color: black;
   text-decoration: none;
 }
-
+li {
+  padding-left: 3px;
+  text-align: left;
+}
 /*NAV BAR------------------*/
 .nav {
   position: relative;
