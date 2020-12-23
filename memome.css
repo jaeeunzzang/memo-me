@@ -1,14 +1,13 @@
 body {
   text-align: center;
 }
-#container ul li {
-  align-self: start;
-}
 
 #flexDiv {
   display: flex;
   flex-flow: row wrap;
 }
+
+/*NAV BAR------------------*/
 .nav {
   position: relative;
   border: 1px solid gray;
@@ -16,11 +15,15 @@ body {
 
   background-color: antiquewhite;
 }
+
+/*POST---------------------*/
 .post {
   position: relative;
   border: 1px solid gray;
   width: 63%;
 }
+
+/* TODOLIST---------------------------------- */
 .todo {
   position: relative;
   border: 1px solid gray;
