@@ -20,9 +20,23 @@
         </div>
         <div class="todo" id="todo">
           <h3>TO-DO</h3>
-          <p></p>
+          <div id="container">
+            <h5>ADD LIST</h5>
+            <hr />
+            <div>
+              <input type="text" id="addList" />
+              <button id="addButton" onclick="addNew()">추가</button>
+            </div>
+            <h5>TO DO</h5>
+            <hr />
+            <ul id="list"></ul>
+            <h5>COMPLETE</h5>
+            <hr />
+            <ul id="completeList"></ul>
+          </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="todo.js"></script>
 </html>
