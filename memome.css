@@ -1,6 +1,17 @@
 @media screen and(max-width:620px) {
   #flexDiv {
     display: block;
+    flex-flow: column nowrap;
+  }
+  nav {
+    position: absolute;
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
   }
 }
 body {
