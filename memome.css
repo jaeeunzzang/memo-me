@@ -1,16 +1,20 @@
 @media screen and(max-width:620px) {
-  #flexDiv {
+  body {
+    background-color: blueviolet;
+  }
+  div#flexDiv {
     display: block;
     flex-flow: column nowrap;
   }
-  nav {
-    position: absolute;
+  nav#nav {
+    display: block;
     width: 100%;
   }
-  section {
+  section#section {
+    display: block;
     width: 100%;
   }
-  aside {
+  aside#aside {
     width: 100%;
   }
 }
@@ -31,26 +35,26 @@ li {
   text-align: left;
 }
 /*NAV BAR------------------*/
-nav {
+nav#nav {
   position: relative;
   border: 1px solid gray;
   width: 15%;
 
   background-color: antiquewhite;
 }
-nav a:hover {
+nav#nav a:hover {
   color: chocolate;
 }
 
 /*POST---------------------*/
-section {
+section#section {
   position: relative;
   border: 1px solid gray;
   width: 64%;
 }
 
 /* TODOLIST---------------------------------- */
-aside {
+aside#aside {
   position: relative;
   border: 1px solid gray;
   width: 20%;
@@ -64,6 +68,6 @@ aside {
 }
 
 /*footer-------*/
-footer {
+footer#ooter {
   border: 1px solid gray;
 }
