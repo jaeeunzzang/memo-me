@@ -1,3 +1,8 @@
+@media screen and(max-width:620px) {
+  #flexDiv {
+    display: block;
+  }
+}
 body {
   text-align: center;
 }
@@ -27,14 +32,14 @@ nav a:hover {
 }
 
 /*POST---------------------*/
-.post {
+section {
   position: relative;
   border: 1px solid gray;
-  width: 63%;
+  width: 64%;
 }
 
 /* TODOLIST---------------------------------- */
-.todo {
+aside {
   position: relative;
   border: 1px solid gray;
   width: 20%;
@@ -46,6 +51,8 @@ nav a:hover {
   padding-left: 5px;
   margin-bottom: 5px;
 }
-#addList {
-  width: auto;
+
+/*footer-------*/
+footer {
+  border: 1px solid gray;
 }

@@ -28,30 +28,32 @@
           </ul>
         </nav>
         <section>
-          <div class="post" id="post">
+          <article>
             <h3>POST</h3>
-            <textarea></textarea>
-          </div>
+            <p>본문내용</p>
+          </article>
         </section>
-
-        <div class="todo" id="todo">
-          <h3>TO-DO</h3>
-          <div id="container">
-            <h5>ADD LIST</h5>
-            <hr />
-            <div>
-              <input type="text" id="addList" />
-              <button id="addButton" onclick="addNew()">추가</button>
+        <aside>
+          <div class="todo" id="todo">
+            <h3>TO-DO</h3>
+            <div id="container">
+              <h5>ADD LIST</h5>
+              <hr />
+              <div>
+                <input type="text" id="addList" />
+                <button id="addButton" onclick="addNew()">추가</button>
+              </div>
+              <h5>TO DO</h5>
+              <hr />
+              <ul id="list"></ul>
+              <h5>COMPLETE</h5>
+              <hr />
+              <ul id="completeList"></ul>
             </div>
-            <h5>TO DO</h5>
-            <hr />
-            <ul id="list"></ul>
-            <h5>COMPLETE</h5>
-            <hr />
-            <ul id="completeList"></ul>
           </div>
-        </div>
+        </aside>
       </div>
+      <footer>여기는 footer</footer>
     </div>
   </body>
   <script src="todo/todo.js"></script>
