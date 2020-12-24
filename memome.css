@@ -15,14 +15,14 @@ li {
   text-align: left;
 }
 /*NAV BAR------------------*/
-.nav {
+nav {
   position: relative;
   border: 1px solid gray;
   width: 15%;
 
   background-color: antiquewhite;
 }
-.nav a:hover {
+nav a:hover {
   color: chocolate;
 }
 
