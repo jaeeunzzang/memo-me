@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    s
+  </body>
+  <script>
+    var arr = [1, 2, 3];
+    var [x, y] = arr;
+    console.log(x);
+    console.log(y);
+    var [x, , y] = arr;
+    console.log(x);
+    console.log(y);
+
+    var a, b;
+
+    [a, b] = [x, y];
+    console.log(a); // 1
+    console.log(b); // 2
+
+    [a = 5, b = 7] = [1];
+    console.log(a); // 1
+    console.log(b); // 7
+  </script>
+</html>
