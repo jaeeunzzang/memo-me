@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MEMO:ME</title>
-    <link rel="stylesheet" href="/main/css/memome.css" />
-  </head>
-  <body>
-    <div id="wrap">
-      <header id="header">
-        <div id="memo"><h1>MEMO:</h1></div>
-        <div id="memome" hidden>
-          <a href="/main/index.html"> <h1>MEMO:ME</h1></a>
-        </div>
-      </header>
 
-      <div id="flexDiv">
-        <nav id="nav">
-          <h3>Category</h3>
-          <ul>
-            <li>
-              <a href="/category/dictionary/">EatingDictionary</a>
-            </li>
-            <li>
-              <a id="recipe">Recipe</a>
-            </li>
-          </ul>
-        </nav>
-        <section id="section">
-          <article id="article">
-            <h3>HOME</h3>
-            <p>여기는 홈 화면</p>
-          </article>
-        </section>
-        <aside id="aside">
-          <div class="todo" id="todo">
-            <h3>TO-DO</h3>
-            <div id="container">
-              <h5>ADD LIST</h5>
-              <hr />
-              <div>
-                <input type="text" id="addList" />
-                <button id="addButton" onclick="addNew()">추가</button>
-              </div>
-              <h5>TO DO</h5>
-              <hr />
-              <ul id="list"></ul>
-              <h5>COMPLETE</h5>
-              <hr />
-              <ul id="completeList"></ul>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEMO:ME</title>
+  <link rel="stylesheet" href="css/memome.css" />
+</head>
+
+<body>
+
+
+  <div id="flexDiv">
+    <nav id="nav">
+      <h3>Category</h3>
+      <ul>
+        <li>
+          <a href="../category/dictionary/dictionary.html">EatingDictionary</a>
+        </li>
+        <li>
+          <a id="recipe">Recipe</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="section">
+      <article id="article">
+        <h3>HOME</h3>
+        <p>여기는 홈 화면</p>
+      </article>
+    </section>
+    <aside id="aside">
+      <div class="todo" id="todo">
+        <h3>TO-DO</h3>
+        <div id="container">
+          <h5>ADD LIST</h5>
+          <hr />
+          <div>
+            <input type="text" id="addList" />
+            <button id="addButton" onclick="addNew()">추가</button>
           </div>
-        </aside>
+          <h5>TO DO</h5>
+          <hr />
+          <ul id="list"></ul>
+          <h5>COMPLETE</h5>
+          <hr />
+          <ul id="completeList"></ul>
+        </div>
       </div>
-      <footer id="footer">여기는 footer</footer>
-    </div>
-  </body>
-  <script src="/main/js/index.js"></script>
-  <script src="/todo/todo.js"></script>
-  <script src="/main/js/title.js"></script>
+    </aside>
+  </div>
+  <footer id="footer">여기는 footer</footer>
+  </div>
+</body>
+<script src="js/index.js"></script>
+<script src="../todo/todo.js"></script>
+<script src="js/title.js"></script>
+
 </html>

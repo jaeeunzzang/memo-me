@@ -5,6 +5,7 @@ var aTag = memome.children[0];
 
 memo.onmouseover = memoHover;
 memo.onmouseleave = memoHout;
+memome.onclick = memoClick;
 
 function memoHover() {
   memo.style.display = "none";
@@ -14,4 +15,7 @@ function memoHover() {
 function memoHout() {
   memo.style.display = "block";
   memome.style.display = "none";
+}
+function memoClick(){
+  location.href="home.html";
 }
