@@ -15,6 +15,3 @@ function memoHout() {
   memo.style.display = "block";
   memome.style.display = "none";
 }
-function memoClick(){
-  
-}
